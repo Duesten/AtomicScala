@@ -61,6 +61,7 @@ def manyTimesString(s:String,n:Int):String = {
 	s * n
 	
 }
+
 println(manyTimesString("a",4))
 
 def bmiStatus(w:Double,h:Double):String = {  
@@ -73,8 +74,10 @@ def bmiStatus(w:Double,h:Double):String = {
 
 val normale = bmiStatus(160, 68)
 assert(normale == "normal",normal)
+
 val underweight = bmiStatus(100,68)
 assert(underweight == "underweight")
+
 val overweight = bmiStatus(180,60)
 assert(overweight == "fat")
 
