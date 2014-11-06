@@ -71,9 +71,8 @@ def bmiStatus(w:Double,h:Double):String = {
 	else {"fat"}
 }
 
-
-val normal = bmiStatus(160, 68)
-assert(normal == "normal",normal)
+val normale = bmiStatus(160, 68)
+assert(normale == "normal",normal)
 val underweight = bmiStatus(100,68)
 assert(underweight == "underweight")
 val overweight = bmiStatus(180,60)
