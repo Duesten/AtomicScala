@@ -57,7 +57,7 @@ class Grid {
   def display() = {
     for(i <- 0 to 2){
       for (j <- 0 to 2){
-        print(cells(j)(i).get + " " + j + i + " ")
+        print(cells(j)(i).get /* + " " + j + i + " "*/)
       }
       println(" ")
     }
@@ -71,3 +71,5 @@ grid.play('O',1,0)
 grid.play('O',1,1)
 grid.play('O',1,2)
 grid.isGameDone
+
+
