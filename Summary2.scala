@@ -34,3 +34,15 @@ for(e <- v3) {
 }
 
 println(s3)
+
+val v123 = Vector(v1,v2,v3)
+
+var s4 = ""
+
+for(a <- v123){
+	for(b <- a){
+		s4 += b
+	}
+}
+
+println(s4)
