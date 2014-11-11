@@ -1,6 +1,6 @@
 class Family(asd:String*){
 
-	def getFamilySize():Int = {
+	def getFamilySize:Int = {
 		var familySize = 0
 		for(x <- asd){println(x) ; familySize = familySize + 1}
 		
@@ -27,5 +27,9 @@ class FamilyExt(mom:String,dad:String,children:String*){
 	
 }
 
-val asd = new Family("Mom","Dad","Son","Daughter","Adopted kid")
+val asd = new FamilyExt("Mom","Dad","Son","Daughter","Adopted kid")
 println(asd.getFamilySize)
+
+val ads = new FamilyExt("Mom","Dad")
+
+println(ads.getFamilySize)
