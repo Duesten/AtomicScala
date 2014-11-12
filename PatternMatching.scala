@@ -23,10 +23,6 @@ def forecast(t: Int):String = {
 	}
 }
 
-def historicalData{
-
-}
-
 
 for(x <- asd){
 	println(forecast(x))

@@ -106,7 +106,7 @@ println(c)
 c.w = 30
 println(c)
 
-
+fu
 case class Dimension2(h:Int,var w:Int) {
 	
 }
